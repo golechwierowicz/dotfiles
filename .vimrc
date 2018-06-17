@@ -84,9 +84,9 @@ set expandtab
 " Open nerd tree
 map <C-n> :NERDTreeTabsToggle<CR>
 
-" Scroll through tabs with shift and arrows
-map <S-Right> :tabn<CR>
-map <S-Left>  :tabp<CR>
+" Scroll through tabs with shift and nums
+nmap <S-l> :tabn<CR>
+nmap <S-h> :tabp<CR>
 
 " Allow some mouse...
 set mouse=a
