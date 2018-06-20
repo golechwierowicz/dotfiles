@@ -44,6 +44,10 @@ Plugin 'alfredodeza/pytest.vim'
 " Pytest tests
 Plugin 'plytophogy/vim-virtualenv'
 
+" Solarized color scheme
+Plugin 'altercation/vim-colors-solarized'
+
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
