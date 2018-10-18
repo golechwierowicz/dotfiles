@@ -63,12 +63,13 @@ filetype plugin indent on    " required
 " Base
 syntax enable
 set background=dark
-colorscheme solarized
 
 set autoindent
 set incsearch
 set hlsearch
 set nu
+set ic
+set noswapfile
 
 " Move lines with shift and up/down arrows
 no <S-down> ddp
