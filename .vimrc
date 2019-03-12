@@ -62,7 +62,7 @@ filetype plugin indent on    " required
 
 " Base
 syntax enable
-set background=dark
+set background=light
 
 set autoindent
 set incsearch
